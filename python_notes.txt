@@ -1,0 +1,6 @@
+# Creating virtual environment for windows
+py -3 -m venv .venv
+.venv\scripts\activate
+# Install python package
+python -m pip install matplotlib
+python -m pip install pandas-datareader
